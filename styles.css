@@ -10,7 +10,7 @@ body {
 
 .pink { background-color: #ffc0cb; }
 
-h1 { font-size: 4em; margin: 0; font-family: 'Playfair Display', serif;}
+h1 { font-size: 4em !important; margin: 0; font-family: 'Playfair Display', serif !important;}
 p { font-size: 1em; font-weight: 300;}
 
 /* HEADER */
