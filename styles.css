@@ -50,6 +50,7 @@ p { font-size: 1em; font-weight: 300;}
 .nav div.main_list {
   height: 65px;
   float: right;
+
 }
 
 .nav div.main_list ul {
@@ -353,6 +354,8 @@ nav a {
   height: 100vh;
 }
 
+.hero-p { font-size: 1.75rem;}
+
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -432,6 +435,7 @@ ul {
 .footer-section {
   background: #AA336A;
   position: relative;
+  z-index: -1;
 }
 .footer-cta {
   border-bottom: 1px solid #fff;
