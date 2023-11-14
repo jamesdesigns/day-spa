@@ -27,13 +27,14 @@ p { font-size: 1em; font-weight: 300;}
   text-align: center;
 }
 
-.nav-container { margin-left: 155px;}
+.nav-container { margin-left: 10%;}
 
 .nav div.logo {
   float: left;
   width: auto;
   height: auto;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 10rem;
 }
 
 .nav div.logo a {
@@ -64,7 +65,7 @@ p { font-size: 1em; font-weight: 300;}
   width: auto;
   height: 65px;
   padding: 0;
-  padding-right: 3rem;
+  padding-right: 1.5rem;
 }
 
 .nav div.main_list ul li a {
@@ -378,7 +379,7 @@ nav a {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px;
 }
 
 .column {
@@ -562,7 +563,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #ccc;
+  background: #f2f2f2;
   padding: 25px 0;
 }
 .copyright-text p {
@@ -590,6 +591,7 @@ ul {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .nav-container {
       margin: 0;
+      width: 100vw;
   }
 }
 
