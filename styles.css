@@ -34,7 +34,7 @@ body {
 }
 
 .nav div.logo a:hover {
-  color: #00E676;
+  color: black;
 }
 
 .nav div.main_list {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-  color: #00E676;
+  color: black;
 }
 
 
@@ -355,12 +355,14 @@ nav a {
   min-height: 100vh;
   max-width: 800px;
   margin: 0 auto;
+  margin-left: 50%;
+  color: black;
 }
 
 .cta-button {
   display: inline-block;
   padding: 15px 35px;
-  background-color: #333;
+  background-color: #AA336A;
   color: #fff;
   text-decoration: none;
   border-radius: 25px;
@@ -422,7 +424,7 @@ footer a {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1300px) {
   .navTrigger {
       display: block;
   }
@@ -445,7 +447,7 @@ footer a {
       right: 0;
       left: 0;
       bottom: 0;
-      background-color: #111;
+      background-color: #fff;
       /*same background color of navbar*/
       background-position: center top;
   }
@@ -458,13 +460,14 @@ footer a {
       width: 100%;
       font-size: 2rem;
       padding: 20px;
+      color: #AA336A;
   }
   .nav div.media_button {
       display: block;
   }
 }
 
-@media all and (max-width:700px){
+@media all and (max-width:100px){
   .myP {
     padding:2%;
   }
