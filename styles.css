@@ -371,12 +371,13 @@ nav a {
 
 .cta-button {
   display: inline-block;
-  padding: 15px 35px;
+  padding: 15px 45px;
   background-color: #AA336A;
   color: #fff;
   text-decoration: none;
   border-radius: 25px;
 }
+.cta-button:hover { color: white; text-decoration: none;}
 
 .side-by-side {
   display: flex;
@@ -590,7 +591,7 @@ ul {
   color: #000;
 }
 
-/* Media qurey section */
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .nav-container {
@@ -647,3 +648,9 @@ ul {
     padding:2%;
   }
   }
+
+  /* Media qurey section */
+@media screen and (max-width: 768px) {
+  h1 { color: white !important; }
+  .hero { background: url('hero-banner-home-mobile.jpg'); background-repeat: no-repeat; background-size: cover;}
+}
