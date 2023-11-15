@@ -652,5 +652,5 @@ ul {
   /* Media qurey section */
 @media screen and (max-width: 768px) {
   h1 { color: white !important; }
-  .hero { background: url('hero-banner-home-mobile.jpg'); background-repeat: no-repeat; background-size: cover;}
+  .hero { background: url('hero-banner-home-mobile.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;}
 }
