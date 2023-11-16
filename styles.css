@@ -10,7 +10,7 @@ body {
 
 .pink { background-color: #ffc0cb; }
 
-h1 { font-size: 4em !important; margin: 0; font-family: 'Playfair Display', serif !important;}
+h1 { font-size: 6em !important; margin: 0; font-family: 'Playfair Display', serif !important; line-height: 1 !important;}
 p { font-size: 1em; font-weight: 300;}
 
 /* HEADER */
@@ -360,7 +360,7 @@ nav a {
   height: 100vh;
 }
 
-.hero-p { font-size: 1.75rem;}
+.hero-p { font-size: 1.75rem; line-height: 1.2; padding: 15px 0;}
 
 .hero-content {
   display: flex;
