@@ -351,7 +351,7 @@ nav a {
 
 .hero {
   background-color: rgb(201, 98, 115);
-  background: url('hero-banner-home.jpg');
+  background: url('hero-banner-home-v2.jpg');
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
@@ -372,7 +372,7 @@ nav a {
   max-width: 800px;
   margin: 0 auto;
   margin-left: 40%;
-  color: #AA336A;
+  /* color: #AA336A; */ color: white;
 }
 
 .cta-button {
