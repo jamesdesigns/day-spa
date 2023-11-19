@@ -460,7 +460,7 @@ ul {
   color: #333;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 .cta-text span {
   color: #666;
@@ -663,4 +663,5 @@ ul {
   .hero-p { color: white;}
   .hero-content { padding-top: 45%; }
   .footer-widget-heading h3 { margin-top: 20px; }
+  .cta-text h4 { padding-top: 15px; }
 }
