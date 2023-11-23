@@ -3,7 +3,7 @@
 
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'georgiapro', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,8 @@ body {
 .pink { background-color: #ffc0cb; }
 
 h1 { font-size: 6em !important; margin: 0; font-family: 'Playfair Display', serif !important; line-height: 1 !important;}
-p { font-size: 1em; font-weight: 300;}
+h5 { font-family: 'Playfair Display', serif; }
+p { font-size: 1em; font-family: 'georgiapro', sans-serif; font-weight: 400; font-style: normal;}
 
 /* HEADER */
 /*-- Inspiration taken from abdo steif -->
@@ -25,7 +26,10 @@ p { font-size: 1em; font-weight: 300;}
   position: fixed;
   line-height: 65px;
   text-align: center;
+  font-family: 'georgiapro', sans-serif;
+  font-size: 18px;
 }
+
 
 .nav-container { margin-left: 10%;}
 
@@ -445,6 +449,7 @@ ul {
   /* background: #AA336A; */ background: #f2f2f2;
   position: relative; 
   /* z-index: 99; */
+  font-family: 'georgiapro', sans-serif;
 }
 .footer-cta {
   border-bottom: 1px solid #666;
@@ -497,7 +502,7 @@ ul {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'georgiapro-condensed', sans-serif;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
