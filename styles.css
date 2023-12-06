@@ -385,7 +385,7 @@ nav a {
   background-color: #AA336A;
   color: #fff;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 45px;
   font-family: 'Playfair Display', serif !important;
   font-weight: bold;
 }
@@ -466,7 +466,6 @@ ul {
 .cta-text h4 {
   color: #333;
   font-size: 20px;
-  font-weight: 600;
   margin-bottom: 10px;
 }
 .cta-text span {
@@ -501,7 +500,6 @@ ul {
   color: #333;
   display: block;
   font-size: 20px;
-  font-weight: 700;
   font-family: 'georgiapro-condensed', sans-serif;
   margin-bottom: 20px;
 }
@@ -529,7 +527,6 @@ ul {
 .footer-widget-heading h3 {
   color: #333;
   font-size: 20px;
-  font-weight: 600;
   margin-bottom: 40px;
   position: relative;
 }
@@ -561,7 +558,7 @@ ul {
 }
 .subscribe-form input {
   width: 100%;
-  padding: 14px 28px;
+  padding: 14px 28px 14px 10px;
   background: #fff;
   border: 1px solid #fff;
   color: #fff;
@@ -596,7 +593,7 @@ ul {
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #AA336A;
 }
 .footer-menu li a {
   font-size: 14px;
