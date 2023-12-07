@@ -20,6 +20,10 @@ p { font-size: 1em; font-family: 'georgiapro', sans-serif; font-weight: 400; fon
 
 /* Navbar section */
 .career-highlight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   padding: 18px 0;
   width: 100%;
@@ -29,6 +33,16 @@ p { font-size: 1em; font-family: 'georgiapro', sans-serif; font-weight: 400; fon
   color:#AA336A;
   font-size: 16px;
   font-family: 'georgiapro', sans-serif;
+}
+.join-p { margin-top: 14px;}
+.join-cta {
+  padding: 5px 20px;
+  background-color: transparent;
+  border:1px solid #AA336A;
+  border-radius: 10px;
+  margin-left: 1%;
+  color: #AA336A;
+  cursor: pointer;
 }
 .nav {
   width: 100%;
