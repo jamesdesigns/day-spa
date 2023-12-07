@@ -34,7 +34,7 @@ p { font-size: 1em; font-family: 'georgiapro', sans-serif; font-weight: 400; fon
   font-size: 16px;
   font-family: 'georgiapro', sans-serif;
 }
-.join-p { margin-top: 14px;}
+.join-p { margin-top: 14px; font-size: 14px}
 .join-cta {
   padding: 5px 20px;
   background-color: transparent;
@@ -43,6 +43,7 @@ p { font-size: 1em; font-family: 'georgiapro', sans-serif; font-weight: 400; fon
   margin-left: 1%;
   color: #AA336A;
   cursor: pointer;
+  font-size: 14px;
 }
 .nav {
   width: 100%;
